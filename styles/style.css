@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans:400,700|Permanent+Marker");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: black;
+  background-color: white;
+}
+
+p {
+  font-size: 1em;
+  padding: 0 4.5em;
+  line-height: 1.9em;
+}
+
+nav {
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+}
+
+nav .navbar-brand {
+  font-weight: bolder;
+  padding-left: 3.2em;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav .uitlijnen {
+  margin-left: 20em;
+}
+
+@media (max-width: 1500px) {
+  nav .uitlijnen {
+    margin-left: 0em;
+  }
+}
+
+nav .nav-item {
+  color: #625656;
+  padding-left: 7em;
+}
+
+nav a {
+  text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    -webkit-box-flex: 50%;
+            flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    -webkit-box-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.contenthome {
+  display: inline-block;
+}
+
+.contenthome img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: auto;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.contenthome h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2.50em;
+}
+
+@media (max-width: 1500px) {
+  .contenthome h1 {
+    font-size: 1.5em;
+    padding-left: 3em;
+  }
+}
+
+@media (max-width: 560px) {
+  .contenthome h1 {
+    padding-left: 3em;
+  }
+}
+
+.contenthome .uitlijnenrechts {
+  text-align: right;
+  padding-right: 1.5em;
+}
+
+.contenthome h2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 6.850em;
+}
+
+@media (max-width: 1500px) {
+  .contenthome h2 {
+    font-size: 4em;
+    padding-left: 1.2em;
+  }
+}
+
+@media (max-width: 560px) {
+  .contenthome h2 {
+    font-size: 3.5em;
+    padding-left: 1.2em;
+  }
+}
+
+.groeneachtergrond {
+  background-color: #02EB7F;
+}
+
+.groeneachtergrond img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.groeneachtergrond h3 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5em;
+  padding-left: 2.5em;
+  padding-bottom: 1em;
+}
+
+.groeneachtergrond h5 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5em;
+  padding-left: 3em;
+  padding-bottom: 1em;
+}
+
+@media (max-width: 1500px) {
+  .groeneachtergrond h5 {
+    font-size: 1.3em;
+    padding-left: 3.5em;
+    padding-bottom: 0.1em;
+  }
+}
+
+.contentoorzaken h4 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 2.850em;
+  padding-left: 1.5em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+@media (max-width: 1500px) {
+  .contentoorzaken h4 {
+    font-size: 1.5em;
+    padding-left: 3em;
+    padding-bottom: 0.1em;
+  }
+}
+
+.contentoorzaken img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.contentonderzoek {
+  display: inline-block;
+}
+
+.contentonderzoek img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: auto;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.contentonderzoek h2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 4.850em;
+  text-align: center;
+  padding-top: 2em;
+}
+
+@media (max-width: 1500px) {
+  .contentonderzoek h2 {
+    font-size: 4em;
+    padding-top: 0.5em;
+  }
+}
+
+.onderzoeklinks h3 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5em;
+  padding-left: 3em;
+  padding-bottom: 1em;
+}
+
+.onderzoeklinks a {
+  text-decoration: underline;
+  color: black;
+}
+
+.onderzoekrechts {
+  background-color: #02EB7F;
+}
+
+.onderzoekrechts img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 50%;
+  height: auto;
+  display: inline;
+  margin: 0;
+  padding-left: 4em;
+}
+
+.onderzoekrechts h3 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5em;
+  padding-left: 3em;
+  padding-bottom: 1em;
+}
+
+.onderzoekrechts a {
+  text-decoration: none;
+}
+
+.onderzoekrechts .button {
+  color: black;
+  display: inline-block;
+  border-color: black;
+  border: 3px solid black;
+  padding: 0 3em;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 4em;
+}
+
+.onderzoekrechts b {
+  font-family: "Permanent Marker", cursive;
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+.onderzoekrechts table td {
+  padding-left: 4em;
+  padding-bottom: 0.2em;
+}
+
+.onderzoekrechts table th {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.7em;
+  padding-left: 3em;
+  padding-bottom: 0.2em;
+}
+
+.contentagenda img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 1500px) {
+  .contentagenda img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.contentagenda1 .strookje {
+  background-image: url("../images/strookje.png");
+  background-size: cover;
+  margin-bottom: 4em;
+  margin-top: 4em;
+}
+
+@media (max-width: 1500px) {
+  .contentagenda1 .strookje {
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.contentagenda1 .datum {
+  width: 30%;
+  padding-top: 4em;
+}
+
+@media (max-width: 1500px) {
+  .contentagenda1 .datum {
+    width: 20%;
+    padding-top: 2em;
+  }
+}
+
+.contentagenda1 .datum b {
+  font-family: "Permanent Marker", cursive;
+  font-size: 2em;
+  margin-top: 10em;
+  padding-bottom: 0;
+}
+
+@media (max-width: 1500px) {
+  .contentagenda1 .datum b {
+    font-size: 1.5em;
+    padding-top: 0;
+  }
+}
+
+.contentagenda1 .datum p {
+  padding-top: 0;
+  font-weight: bold;
+  font-size: 1.6em;
+  margin: 0;
+}
+
+@media (max-width: 1500px) {
+  .contentagenda1 .datum p {
+    font-size: 1em;
+    margin-bottom: 0.2em;
+  }
+}
+
+.contentagenda1 .uitleg {
+  width: 70%;
+  padding-top: 1.2em;
+}
+
+@media (max-width: 1500px) {
+  .contentagenda1 .uitleg {
+    width: 80%;
+    padding-top: 0.5em;
+  }
+}
+
+.contentagenda1 h3 {
+  padding-top: 2em;
+  padding-bottom: 0em;
+  padding-left: 3em;
+}
+
+@media (max-width: 1500px) {
+  .contentagenda1 h3 {
+    font-size: 0.8em;
+    line-height: 1.3em;
+    padding-left: 4.5em;
+    padding-top: 1.3em;
+    margin-bottom: 0;
+  }
+}
+
+.contentagenda1 p {
+  font-size: 1em;
+}
+
+@media (max-width: 1500px) {
+  .contentagenda1 p {
+    font-size: 0.8em;
+    line-height: 1.3em;
+  }
+}
+
+.uitlijnenbeneden {
+  display: block;
+}
+
+.uitlijnenbeneden p {
+  line-height: 1em;
+  color: black;
+}
+
+.uitlijnenbeneden p a {
+  color: black;
+}
+
+.uitlijnenbeneden .linkmail {
+  color: black;
+}
+
+form {
+  background-color: white;
+  padding-top: 3em;
+  padding-left: 4em;
+  padding-right: 4em;
+  margin-right: 4em;
+  margin-left: 4em;
+}
+
+@media (max-width: 1500px) {
+  form {
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-right: 3em;
+    margin-left: 3em;
+  }
+}
+
+form h3 {
+  margin: 0 auto;
+  padding-left: 0em;
+}
+
+form input[type=text], form select, form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  resize: vertical;
+}
+
+form label {
+  padding: 10px 10px 10px 0;
+  display: inline-block;
+}
+
+@media (max-width: 1500px) {
+  form label {
+    margin: 0;
+    padding: 0.5em 0 0 0;
+  }
+}
+
+form .col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+form .col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+form .onderlijnen {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+form .row:after {
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  form .col-25, form .col-75, form input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+form a {
+  text-decoration: none;
+}
+
+form .button {
+  color: black;
+  display: inline-block;
+  border-color: black;
+  border: 3px solid black;
+  padding: 0 3em;
+  margin: 0  auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.strookboven {
+  background-image: url("../images/strookboven.png");
+  height: 70px;
+}
+
+.strookonder {
+  background-image: url("../images/strookonder.png");
+  height: 50px;
+  margin-bottom: 1.5em;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  padding-left: 9em;
+}
+
+footer .uitlijnenrechts {
+  padding-top: 0.4em;
+}
+
+@media (max-width: 1500px) {
+  footer p {
+    font-size: 0.9em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
