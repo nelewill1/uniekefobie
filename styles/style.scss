@@ -33,6 +33,10 @@ p {
     font-size: 1em; 
     padding: 0 4.5em; 
     line-height: 1.9em; 
+    @media (max-width: $breekpunt1) {
+        font-size: 0.9em;
+        padding: 0 5.5em;
+    }
 }
 
 
@@ -128,6 +132,8 @@ a {
 
   }
 
+  
+
   .groeneachtergrond {
       background-color: $color1;
       img {
@@ -142,6 +148,11 @@ a {
         font-size: 1.5em;   
         padding-left: 2.5em;
         padding-bottom: 1em;
+        @media (max-width: $breekpunt1) {
+            font-size: 1.3em;
+            padding-left: 3em;
+            
+        }
       }
       h5 {
         font-family: $fontset1;
@@ -151,8 +162,25 @@ a {
 
         @media (max-width: $breekpunt1) {
             font-size: 1.3em;
-            padding-left: 3.5em;
+            padding-left: 3.7em;
             padding-bottom: 0.1em;
+        }
+      }
+  }
+
+  .paddingaanpassing { 
+      h3 { 
+        @media (max-width: $breekpunt1) {
+           
+            padding-left: 3.7em;
+           
+        } 
+      }
+      p { 
+        @media (max-width: $breekpunt1) {
+           
+            padding-left: 6.4em;
+           
         }
       }
   }
@@ -167,7 +195,7 @@ a {
 
         @media (max-width: $breekpunt1) {
             font-size: 1.5em;
-            padding-left: 3em;
+            padding-left: 3.2em;
             padding-bottom: 0.1em;
         }
     }
@@ -179,6 +207,7 @@ a {
         display: block;
         margin: 0 auto;   
         }
+        
         
 }
 .contentonderzoek {
@@ -198,7 +227,7 @@ a {
         text-align: center;
         padding-top: 2em;
         @media (max-width: $breekpunt1) {
-            font-size: 4em;
+            font-size: 3.5em;
             padding-top: 0.5em;
         
         }
@@ -210,7 +239,11 @@ a {
         font-size: 1.5em;   
         padding-left: 3em;
         padding-bottom: 1em;
-        
+        @media (max-width: $breekpunt1) {
+            font-size: 1.4em;
+            padding-left: 3.5em;
+            padding-bottom: 0.5em;
+        } 
         
       }
     a {
@@ -227,12 +260,22 @@ a {
           display: inline;
           margin: 0; 
           padding-left: 4em;
+          @media (max-width: $breekpunt1) {
+           
+            margin-left: 0.8em;
+            
+        } 
       }
     h3 {
         font-family: $fontset1;
         font-size: 1.5em;   
         padding-left: 3em;
         padding-bottom: 1em;
+        @media (max-width: $breekpunt1) {
+            font-size: 1.1em;
+            padding-left: 4.6em;
+            padding-bottom: 0.2em;
+        } 
        
       }  
       a {
@@ -248,7 +291,12 @@ a {
          padding: 0 3em;
          margin-bottom: 20px;
          margin-top: 10px;
-         margin-left: 4em;
+         margin-left: 4.5em;
+         @media (max-width: $breekpunt1) {
+           
+            margin-left: 5em;
+            
+        } 
      }
      b {
         font-family: $fontset1;
@@ -256,10 +304,19 @@ a {
         padding-bottom: 1em;
      }
      table {
-        
+        margin-left: 0.8em;
+        @media (max-width: $breekpunt1) {
+            margin-top: 1em;
+            margin-left: 1.8em;
+            
+        } 
         td {
             padding-left: 4em; 
             padding-bottom: 0.2em;
+            @media (max-width: $breekpunt1) {
+                font-size: 0.8em;
+                
+            } 
         }
       
         th {
@@ -267,12 +324,35 @@ a {
             font-size: 1.7em;   
             padding-left: 3em;
             padding-bottom: 0.2em;
+            @media (max-width: $breekpunt1) {
+                font-size: 1em;
+                
+            } 
          }
      }
 }
 
 
- 
+ .progress {
+     display: flex; 
+     width: 50%;
+     height: 6%;
+     margin-left: 6em;
+     margin-top: 1em;
+     margin-bottom: 1em;
+     background-color: $color5;
+     border-radius: 1.5em;
+     @media (max-width: $breekpunt1) {
+        width:60%; 
+        height: 3%;
+        margin-left: 7em;
+    
+    }
+    .progress-bar { 
+        background-color: black;
+        border-radius: 1.5em;
+    }
+ }
 
 
 .contentagenda {
@@ -425,7 +505,7 @@ form {
         @media (max-width: $breekpunt1) {
             margin: 0;
             padding:0.5em 0 0 0;
-         
+            font-size: 0.8em;
          }
       }
   
@@ -471,7 +551,10 @@ form {
          margin: 0  auto;
          margin-bottom: 20px;
          margin-top: 20px;
-         
+         @media (max-width: $breekpunt1) {
+            border: 2.5px solid $color3;
+            font-size: 0.8em;
+         }
      }
     }
     
