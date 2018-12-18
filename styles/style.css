@@ -259,6 +259,7 @@ nav a {
 
 .onderzoekrechts {
   background-color: #02EB7F;
+  height: 100%;
 }
 
 .onderzoekrechts img {
@@ -313,44 +314,37 @@ nav a {
   }
 }
 
-.onderzoekrechts b {
-  font-family: "Permanent Marker", cursive;
-  font-size: 2em;
-  padding-bottom: 1em;
+.onderzoekrechts .percentages .gefinancierd {
+  width: 20%;
 }
 
-.onderzoekrechts table {
-  margin-left: 0.8em;
+.onderzoekrechts .percentages .supporters {
+  width: 20%;
+}
+
+.onderzoekrechts .percentages .dagen {
+  width: 60%;
+}
+
+.onderzoekrechts .percentages b {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5em;
+  padding-bottom: 0.5em;
 }
 
 @media (max-width: 1500px) {
-  .onderzoekrechts table {
-    margin-top: 1em;
-    margin-left: 1.8em;
+  .onderzoekrechts .percentages b {
+    font-size: 1.4em;
   }
 }
 
-.onderzoekrechts table td {
-  padding-left: 4em;
-  padding-bottom: 0.2em;
+.onderzoekrechts .percentages p {
+  font-size: 1em;
 }
 
 @media (max-width: 1500px) {
-  .onderzoekrechts table td {
-    font-size: 0.8em;
-  }
-}
-
-.onderzoekrechts table th {
-  font-family: "Permanent Marker", cursive;
-  font-size: 1.7em;
-  padding-left: 3em;
-  padding-bottom: 0.2em;
-}
-
-@media (max-width: 1500px) {
-  .onderzoekrechts table th {
-    font-size: 1em;
+  .onderzoekrechts .percentages p {
+    font-size: 0.9em;
   }
 }
 
@@ -387,6 +381,8 @@ nav a {
   height: auto;
   display: block;
   margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 3em;
 }
 
 @media (max-width: 1500px) {
@@ -394,6 +390,7 @@ nav a {
     width: 90%;
     height: auto;
     margin: 0 auto;
+    margin-left: 2em;
   }
 }
 
