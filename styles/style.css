@@ -30,10 +30,27 @@ nav {
   margin-top: 1em;
 }
 
+nav .active {
+  border-bottom: 3px #625656 solid;
+}
+
+@media (max-width: 1500px) {
+  nav .active {
+    border-bottom: none;
+  }
+}
+
 nav .navbar-brand {
   font-weight: bolder;
-  padding-left: 3.2em;
+  padding-left: 4em;
   font-family: "Open Sans", sans-serif;
+  margin-right: 17em;
+}
+
+@media (max-width: 1500px) {
+  nav .navbar-brand {
+    margin-right: 0em;
+  }
 }
 
 nav .uitlijnen {
@@ -48,11 +65,15 @@ nav .uitlijnen {
 
 nav .nav-item {
   color: #625656;
-  padding-left: 7em;
+  margin-left: 7em;
 }
 
 nav a {
   text-transform: uppercase;
+}
+
+nav a :focus {
+  border-bottom: #625656 2px;
 }
 
 @media (max-width: 800px) {
@@ -87,6 +108,14 @@ nav a {
   padding: 0;
 }
 
+@media (max-width: 1500px) {
+  .contenthome img {
+    width: 85%;
+    height: auto;
+    margin-left: 3em;
+  }
+}
+
 .contenthome h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
@@ -118,15 +147,15 @@ nav a {
 
 @media (max-width: 1500px) {
   .contenthome h2 {
-    font-size: 4em;
-    padding-left: 1.2em;
+    font-size: 2.3em;
+    padding-left: 2em;
   }
 }
 
 @media (max-width: 560px) {
   .contenthome h2 {
-    font-size: 3.5em;
-    padding-left: 1.2em;
+    font-size: 2.3em;
+    padding-left: 2em;
   }
 }
 
@@ -167,7 +196,7 @@ nav a {
 @media (max-width: 1500px) {
   .groeneachtergrond h5 {
     font-size: 1.3em;
-    padding-left: 3.7em;
+    padding-left: 3.8em;
     padding-bottom: 0.1em;
   }
 }
@@ -175,12 +204,6 @@ nav a {
 @media (max-width: 1500px) {
   .paddingaanpassing h3 {
     padding-left: 3.7em;
-  }
-}
-
-@media (max-width: 1500px) {
-  .paddingaanpassing p {
-    padding-left: 6.4em;
   }
 }
 
@@ -195,7 +218,7 @@ nav a {
 @media (max-width: 1500px) {
   .contentoorzaken h4 {
     font-size: 1.5em;
-    padding-left: 3.2em;
+    padding-left: 3.3em;
     padding-bottom: 0.1em;
   }
 }
@@ -232,7 +255,7 @@ nav a {
 
 @media (max-width: 1500px) {
   .contentonderzoek h2 {
-    font-size: 3.5em;
+    font-size: 2.5em;
     padding-top: 0.5em;
   }
 }
@@ -275,6 +298,18 @@ nav a {
 @media (max-width: 1500px) {
   .onderzoekrechts img {
     margin-left: 0.8em;
+  }
+}
+
+.onderzoekrechts b {
+  font-family: "Permanent Marker", cursive;
+  font-size: 2.5em;
+  padding-bottom: 0.5em;
+}
+
+@media (max-width: 1500px) {
+  .onderzoekrechts b {
+    font-size: 1.4em;
   }
 }
 
@@ -344,7 +379,8 @@ nav a {
 
 @media (max-width: 1500px) {
   .onderzoekrechts .percentages p {
-    font-size: 0.9em;
+    font-size: 0.7em;
+    margin-left: 1.7em;
   }
 }
 
@@ -353,7 +389,6 @@ nav a {
   display: -ms-flexbox;
   display: flex;
   width: 50%;
-  height: 6%;
   margin-left: 6em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -364,7 +399,6 @@ nav a {
 @media (max-width: 1500px) {
   .progress {
     width: 60%;
-    height: 3%;
     margin-left: 7em;
   }
 }
@@ -470,8 +504,8 @@ nav a {
   .contentagenda1 h3 {
     font-size: 0.8em;
     line-height: 1.3em;
-    padding-left: 4.5em;
-    padding-top: 1.3em;
+    padding-left: 5.5em;
+    padding-top: 0.5em;
     margin-bottom: 0;
   }
 }
@@ -536,7 +570,7 @@ form input[type=text], form select, form textarea {
 }
 
 form label {
-  padding: 10px 10px 10px 0;
+  padding: 10px 0px 10px 0;
   display: inline-block;
 }
 
