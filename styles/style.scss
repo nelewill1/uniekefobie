@@ -2,37 +2,42 @@
 
 $color1: #02EB7F;
 $color2: #625656;
-$color3: black; 
-$color4: white; 
-$color5: #F5F5F5; 
+$color3: black;
+$color4: white;
+$color5: #F5F5F5;
 
 
 $alpha1: 0.5;
 $alpha2: 1;
 
 
-$fontset1: 'Permanent Marker', cursive;
-$fontset2: 'Lato', sans-serif;
-$fontset3: 'Open Sans', sans-serif;
+$fontset1: 'Permanent Marker',
+cursive;
+$fontset2: 'Lato',
+sans-serif;
+$fontset3: 'Open Sans',
+sans-serif;
 
 $breekpunt: 560px;
 $breekpunt1: 1500px;
 
-*{
-    padding: 0; 
+* {
+    padding: 0;
     margin: 0;
     font-family: $fontset2;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
-body{
-    color:$color3;
+body {
+    color: $color3;
     background-color: $color4;
 }
+
 p {
-    font-size: 1em; 
-    padding: 0 4.5em; 
-    line-height: 1.9em; 
+    font-size: 1em;
+    padding: 0 4.5em;
+    line-height: 1.9em;
+
     @media (max-width: $breekpunt1) {
         font-size: 0.9em;
         padding: 0 5.5em;
@@ -41,51 +46,60 @@ p {
 
 
 //* navigatie *// 
-nav { 
+nav {
     margin-bottom: 1.5em;
     margin-top: 1em;
-    .active{
-        border-bottom:3px $color2 solid;
+
+    .active {
+        border-bottom: 3px $color2 solid;
+
         @media (max-width: $breekpunt1) {
-      
+
             border-bottom: none;
         }
     }
-    .navbar-brand { 
-        font-weight: bolder; 
+
+    .navbar-brand {
+        font-weight: bolder;
         padding-left: 4em;
         font-family: $fontset3;
         margin-right: 17em;
+
         @media (max-width: $breekpunt1) {
-      
+
             margin-right: 0em;
         }
     }
- .uitlijnen { 
-    
-     margin-left: 20em;
-     @media (max-width: $breekpunt1) {
-      
-        margin-left: 0em;
+
+    .uitlijnen {
+
+        margin-left: 20em;
+
+        @media (max-width: $breekpunt1) {
+
+            margin-left: 0em;
+        }
     }
- }
-    .nav-item { 
+
+    .nav-item {
         color: $color2;
-        margin-left: 7em; 
-       
-    
+        margin-left: 7em;
+
+
     }
-a { 
-    text-transform: uppercase;
-     :focus { 
-         border-bottom: #625656 2px; 
-     }
-}
+
+    a {
+        text-transform: uppercase;
+
+        :focus {
+            border-bottom: #625656 2px;
+        }
+    }
 }
 
 
-  
-  .column {
+
+.column {
     @media (max-width: 800px) {
         -ms-flex: 50%;
         flex: 50%;
@@ -98,85 +112,97 @@ a {
         max-width: 100%;
     }
 
-  }
-  
-  
-  .contenthome {
-      display: inline-block;
-      img {
-          object-fit: cover;
-          width: 100%; 
-          height: auto; 
-          display: inline;
-          margin: 0; 
-          padding: 0; 
-          @media (max-width: $breekpunt1) {
-            width: 85%; 
+}
+
+
+.contenthome {
+    display: inline-block;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        display: inline;
+        margin: 0;
+        padding: 0;
+
+        @media (max-width: $breekpunt1) {
+            width: 85%;
             height: auto;
             margin-left: 3em;
-           
+
         }
-      }
-      h1 {
+    }
+
+    h1 {
         font-family: $fontset3;
         font-weight: bold;
         font-size: 2.50em;
+
         @media (max-width: $breekpunt1) {
             font-size: 1.5em;
             padding-left: 3em;
-           
+
         }
+
         @media (max-width: $breekpunt) {
-          
+
             padding-left: 3em;
         }
-      }
-      .uitlijnenrechts {
-        text-align: right;
-        padding-right: 1.5em; 
     }
+
+    .uitlijnenrechts {
+        text-align: right;
+        padding-right: 1.5em;
+    }
+
     h2 {
         font-family: $fontset1;
         font-size: 6.850em;
-        
+
         @media (max-width: $breekpunt1) {
             font-size: 2.3em;
             padding-left: 2em;
         }
+
         @media (max-width: $breekpunt) {
             font-size: 2.3em;
-            padding-left:2em;
+            padding-left: 2em;
         }
-      
-  }
 
-  }
+    }
 
-  
+}
 
-  .groeneachtergrond {
-      background-color: $color1;
-      img {
+
+
+.groeneachtergrond {
+    background-color: $color1;
+
+    img {
         object-fit: cover;
-        width: 80%; 
-        height: auto;  
+        width: 80%;
+        height: auto;
         display: block;
-        margin: 0 auto; 
-      }
-      h3 {
+        margin: 0 auto;
+    }
+
+    h3 {
         font-family: $fontset1;
-        font-size: 1.5em;   
+        font-size: 1.5em;
         padding-left: 2.5em;
         padding-bottom: 1em;
+
         @media (max-width: $breekpunt1) {
             font-size: 1.3em;
             padding-left: 3em;
-            
+
         }
-      }
-      h5 {
+    }
+
+    h5 {
         font-family: $fontset1;
-        font-size: 1.5em;   
+        font-size: 1.5em;
         padding-left: 3em;
         padding-bottom: 1em;
 
@@ -185,19 +211,19 @@ a {
             padding-left: 3.8em;
             padding-bottom: 0.1em;
         }
-      }
-  }
+    }
+}
 
-  .paddingaanpassing { 
-      h3 { 
+.paddingaanpassing {
+    h3 {
         @media (max-width: $breekpunt1) {
-           
+
             padding-left: 3.7em;
-           
-        } 
-      }
-     
-  }
+
+        }
+    }
+
+}
 
 .contentoorzaken {
     h4 {
@@ -213,292 +239,331 @@ a {
             padding-bottom: 0.1em;
         }
     }
-  
-        img{
+
+    img {
         object-fit: cover;
-        width: 60%; 
-        height: auto;  
+        width: 60%;
+        height: auto;
         display: block;
-        margin: 0 auto;   
-        }
-        
-        
+        margin: 0 auto;
+    }
+
+
 }
+
 .contentonderzoek {
     display: inline-block;
-      img {
-          object-fit: cover;
-          width: 100%; 
-          height: auto; 
-          display: inline;
-          margin: 0; 
-          padding: 0; 
-      }
-      
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+
     h2 {
         font-family: $fontset1;
         font-size: 4.850em;
         text-align: center;
         padding-top: 2em;
+
         @media (max-width: $breekpunt1) {
             font-size: 2.5em;
             padding-top: 0.5em;
-        
+
         }
     }
 }
+
 .onderzoeklinks {
     h3 {
         font-family: $fontset1;
-        font-size: 1.5em;   
+        font-size: 1.5em;
         padding-left: 3em;
         padding-bottom: 1em;
+
         @media (max-width: $breekpunt1) {
             font-size: 1.4em;
             padding-left: 3.5em;
             padding-bottom: 0.5em;
-        } 
-        
-      }
+        }
+
+    }
+
     a {
-        text-decoration: underline; 
+        text-decoration: underline;
         color: $color3;
     }
 }
+
 .onderzoekrechts {
     background-color: $color1;
-    height:100%;
-      img {
-          object-fit: cover;
-          width: 50%; 
-          height: auto; 
-          display: inline;
-          margin: 0; 
-          padding-left: 4em;
-          @media (max-width: $breekpunt1) {
-           
+    height: 100%;
+
+    img {
+        object-fit: cover;
+        width: 50%;
+        height: auto;
+        display: inline;
+        margin: 0;
+        padding-left: 4em;
+
+        @media (max-width: $breekpunt1) {
+
             margin-left: 0.8em;
-            
-        } 
-      }
-      b {
+
+        }
+    }
+
+    b {
         font-family: $fontset1;
-        font-size: 2.5em;   
+        font-size: 2.5em;
         padding-bottom: 0.5em;
+
         @media (max-width: $breekpunt1) {
             font-size: 1.4em;
-            
-        } 
-         }
+
+        }
+    }
+
     h3 {
         font-family: $fontset1;
-        font-size: 1.5em;   
+        font-size: 1.5em;
         padding-left: 3em;
         padding-bottom: 1em;
+
         @media (max-width: $breekpunt1) {
             font-size: 1.1em;
             padding-left: 4.6em;
             padding-bottom: 0.2em;
-        } 
-       
-      }  
-      a {
+        }
+
+    }
+
+    a {
         text-decoration: none;
-        
-     }
-     
-     .button {
-         color: $color3;
-         display: inline-block;
-         border-color: $color3;
-         border: 3px solid $color3;
-         padding: 0 3em;
-         margin-bottom: 20px;
-         margin-top: 10px;
-         margin-left: 4.5em;
-         @media (max-width: $breekpunt1) {
-           
+
+    }
+
+    .button {
+        color: $color3;
+        display: inline-block;
+        border-color: $color3;
+        border: 3px solid $color3;
+        padding: 0 3em;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 4.5em;
+
+        @media (max-width: $breekpunt1) {
+
             margin-left: 5em;
-            
-        } 
-     }
-     
-     .percentages {
-         
+
+        }
+    }
+
+    .percentages {
+
         .gefinancierd {
             width: 20%;
         }
+
         .supporters {
             width: 20%;
-        
+
         }
-       .dagen {
-           width: 60%;
-           
-         
-       }
+
+        .dagen {
+            width: 60%;
+
+
+        }
+
         b {
             font-family: $fontset1;
-            font-size: 1.5em;   
+            font-size: 1.5em;
             padding-bottom: 0.5em;
+
             @media (max-width: $breekpunt1) {
                 font-size: 1.4em;
-                
-            } 
-         }
-         p {
-            font-size: 1em; 
+
+            }
+        }
+
+        p {
+            font-size: 1em;
+
             @media (max-width: $breekpunt1) {
                 font-size: 0.7em;
-               margin-left: 1.7em;
+                margin-left: 1.7em;
 
-            } 
-         }
-     }
-    
+            }
+        }
+    }
+
 }
 
 
 .progress {
-    display: flex; 
+    display: flex;
     width: 50%;
-    
+
     margin-left: 6em;
     margin-top: 1em;
     margin-bottom: 1em;
     background-color: $color5;
     border-radius: 1.5em;
+
     @media (max-width: $breekpunt1) {
-       width:60%; 
-   
-       margin-left: 7em;
-   
-   }
-   .progress-bar { 
-       background-color: black;
-       border-radius: 1.5em;
-   }
+        width: 60%;
+
+        margin-left: 7em;
+
+    }
+
+    .progress-bar {
+        background-color: black;
+        border-radius: 1.5em;
+    }
 }
 
 
 .contentagenda {
     img {
         object-fit: cover;
-        width: 90%; 
-        height: auto;  
+        width: 90%;
+        height: auto;
         display: block;
-        margin: 0 auto; 
-        margin-top: 2em;  
-        margin-bottom: 3em;  
+        margin: 0 auto;
+        margin-top: 2em;
+        margin-bottom: 3em;
+
         @media (max-width: $breekpunt1) {
-            width:90%; 
+            width: 90%;
             height: auto;
-            margin: 0 auto;  
+            margin: 0 auto;
             margin-left: 2em;
-        
+
         }
     }
 }
+
 .contentagenda1 {
     .strookje {
         background-image: url('../images/strookje.png');
-        background-size:cover;    
+        background-size: cover;
         margin-bottom: 4em;
         margin-top: 4em;
+
         @media (max-width: $breekpunt1) {
             background-size: 100%;
             background-repeat: no-repeat;
 
-        
+
         }
     }
-  
+
     .datum {
-        width:30%;
+        width: 30%;
         padding-top: 4em;
+
         @media (max-width: $breekpunt1) {
-            width:20%;
+            width: 20%;
             padding-top: 2em;
-         }
+        }
+
         b {
             font-family: $fontset1;
-            font-size: 2em;  
+            font-size: 2em;
             margin-top: 10em;
             padding-bottom: 0;
+
             @media (max-width: $breekpunt1) {
-               font-size:1.5em;
-               padding-top: 0;
-               
-            
+                font-size: 1.5em;
+                padding-top: 0;
+
+
             }
-            
-            }
-            p {
+
+        }
+
+        p {
             padding-top: 0;
             font-weight: bold;
-             font-size: 1.6em;
-             margin:0;
-             @media (max-width: $breekpunt1) {
-                font-size:1em;
-                margin-bottom:0.2em;
-             
-             }
-             
+            font-size: 1.6em;
+            margin: 0;
+
+            @media (max-width: $breekpunt1) {
+                font-size: 1em;
+                margin-bottom: 0.2em;
+
+            }
+
         }
 
     }
+
     .uitleg {
         width: 70%;
         padding-top: 1.2em;
+
         @media (max-width: $breekpunt1) {
-            width:80%;
+            width: 80%;
             padding-top: 0.5em;
-        
-         }
+
+        }
     }
-   
 
-        h3 {
-            padding-top: 2em;
-            padding-bottom: 0em;
-            padding-left: 3em;
-            @media (max-width: $breekpunt1) {
-                font-size:0.8em;
-                line-height: 1.3em;
-                padding-left: 5.5em;
-                padding-top: 0.5em;
-                margin-bottom: 0;
-              
-             }
+
+    h3 {
+        padding-top: 2em;
+        padding-bottom: 0em;
+        padding-left: 3em;
+
+        @media (max-width: $breekpunt1) {
+            font-size: 0.8em;
+            line-height: 1.3em;
+            padding-left: 5.5em;
+            padding-top: 0.5em;
+            margin-bottom: 0;
+
         }
+    }
 
-        p {
-            font-size:1em;
-            @media (max-width: $breekpunt1) {
-                font-size:0.8em;
-                line-height: 1.3em;
-             
-             }
+    p {
+        font-size: 1em;
+
+        @media (max-width: $breekpunt1) {
+            font-size: 0.8em;
+            line-height: 1.3em;
+
         }
-     }
-     
-     
-     
+    }
+}
 
-    .uitlijnenbeneden { 
-        display: block;
-        p {
-            line-height: 1em; 
+
+
+
+.uitlijnenbeneden {
+    display: block;
+
+    p {
+        line-height: 1em;
+        color: black;
+
+        a {
             color: black;
-            a { color: black;}
-           } 
-
-           .linkmail {
-               color: black;
-           }
         }
-      
-      
+    }
+
+    .linkmail {
+        color: black;
+    }
+}
+
+
 form {
     background-color: $color4;
     padding-top: 3em;
@@ -506,117 +571,132 @@ form {
     padding-right: 4em;
     margin-right: 4em;
     margin-left: 4em;
+
     @media (max-width: $breekpunt1) {
         padding-top: 2em;
-    padding-left: 3em;
-    padding-right: 3em;
-    margin-right: 3em;
-    margin-left: 3em;
-     
-     }
+        padding-left: 3em;
+        padding-right: 3em;
+        margin-right: 3em;
+        margin-left: 3em;
+
+    }
+
     h3 {
         margin: 0 auto;
         padding-left: 0em;
-       
-      
+
+
     }
-    input[type=text], select, textarea {
+
+    input[type=text],
+    select,
+    textarea {
         width: 100%;
         padding: 10px;
         border: none;
-      
+
         resize: vertical;
-      }
-      
-      label {
+    }
+
+    label {
         padding: 10px 0px 10px 0;
         display: inline-block;
+
         @media (max-width: $breekpunt1) {
             margin: 0;
-            padding:0.5em 0 0 0;
+            padding: 0.5em 0 0 0;
             font-size: 0.8em;
-         }
-      }
-  
-      .col-25 {
+        }
+    }
+
+    .col-25 {
         float: left;
         width: 25%;
         margin-top: 6px;
-      }
-      
-      .col-75 {
+    }
+
+    .col-75 {
         float: left;
         width: 75%;
         margin-top: 6px;
-       
-      }
-      .onderlijnen {
+
+    }
+
+    .onderlijnen {
         border: none;
-        border-bottom: 2px solid black; 
-      }
-      .row:after {
+        border-bottom: 2px solid black;
+    }
+
+    .row:after {
         display: table;
         clear: both;
-      }
-   
-      @media screen and (max-width: 600px) {
-        .col-25, .col-75, input[type=submit] {
-          width: 100%;
-          margin-top: 0;
+    }
+
+    @media screen and (max-width: 600px) {
+
+        .col-25,
+        .col-75,
+        input[type=submit] {
+            width: 100%;
+            margin-top: 0;
         }
-      }
+    }
+
     a {
         text-decoration: none;
-       
-        
-     }
-     
-     .button {
-         color: $color3;
-         display: inline-block;
-         border-color: $color3;
-         border: 3px solid $color3;
-         padding: 0 3em;
-         margin: 0  auto;
-         margin-bottom: 20px;
-         margin-top: 20px;
-         @media (max-width: $breekpunt1) {
+
+
+    }
+
+    .button {
+        color: $color3;
+        display: inline-block;
+        border-color: $color3;
+        border: 3px solid $color3;
+        padding: 0 3em;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+        @media (max-width: $breekpunt1) {
             border: 2.5px solid $color3;
             font-size: 0.8em;
-         }
-     }
-    }
-    
-    .strookboven {
-        background-image: url('../images/strookboven.png');
-        height: 70px;
-        @media (max-width: $breekpunt1) {  
         }
     }
- 
-      
-   .strookonder {
+}
+
+.strookboven {
+    background-image: url('../images/strookboven.png');
+    height: 70px;
+
+    @media (max-width: $breekpunt1) {}
+}
+
+
+.strookonder {
     background-image: url('../images/strookonder.png');
     height: 50px;
     margin-bottom: 1.5em;
-    @media (max-width: $breekpunt1) {
-    }
-   }
 
-  
+    @media (max-width: $breekpunt1) {}
+}
 
-    footer {
-        a {
-            text-decoration: none;
-            color: black;
-            padding-left: 9em;
-         }  
-         .uitlijnenrechts {
-            padding-top: 0.4em;
-         }
-         p {
-            @media (max-width: $breekpunt1) {
-                font-size: 0.9em;
-            }
-         }
+
+
+footer {
+    a {
+        text-decoration: none;
+        color: black;
+        padding-left: 9em;
     }
+
+    .uitlijnenrechts {
+        padding-top: 0.4em;
+    }
+
+    p {
+        @media (max-width: $breekpunt1) {
+            font-size: 0.9em;
+        }
+    }
+}
